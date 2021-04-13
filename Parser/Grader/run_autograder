@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+cp /autograder/submission/lexer.c  /autograder/source/lexer.c
+cp /autograder/submission/parser.c  /autograder/source/parser.c
+
+cd /autograder/source
+
+cc -std=c99 lexer.h parser.h lexer.c parser.c ParserGrader.c -o par
+
+# test the lexer
+./par

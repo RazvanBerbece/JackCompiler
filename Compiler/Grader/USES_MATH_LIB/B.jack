@@ -1,0 +1,11 @@
+class B
+{
+
+	field A a;
+	function void f ()
+	{
+		var int v;
+		let v = Math.multiply (6,21+1);
+	}
+	
+}

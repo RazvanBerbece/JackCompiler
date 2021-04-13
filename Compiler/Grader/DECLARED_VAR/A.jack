@@ -1,0 +1,26 @@
+class A
+{
+   field int v;
+   field int t;
+   
+
+   function void M ()
+   {
+	var int v;
+	let v = t;
+	
+   }
+
+   method void Sub (int a)
+   {
+	let a  = 12;
+
+   }
+}
+
+
+
+
+
+
+

@@ -1,0 +1,17 @@
+class A
+{
+
+   field int v;
+
+   function void M ()
+   {
+	let v = 100;
+   }	
+}
+
+
+
+
+
+
+

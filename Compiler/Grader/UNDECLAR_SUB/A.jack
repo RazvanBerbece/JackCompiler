@@ -1,0 +1,20 @@
+class A
+{
+   field int v;
+   field int t;
+   
+
+   function void M ()
+   {
+	var char c;
+	let v = t;
+	do Sub();
+   }	
+}
+
+
+
+
+
+
+

@@ -1,0 +1,19 @@
+class A
+{
+   field int v;
+   field int t;
+   static char v;
+
+   function void M ()
+   {
+	var char c;
+	let v = t;
+   }	
+}
+
+
+
+
+
+
+

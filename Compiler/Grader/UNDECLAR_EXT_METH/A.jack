@@ -1,0 +1,18 @@
+class A
+{
+
+   field int v;
+
+   method int M ()
+   {
+	let v = 100;
+	return v+1;
+   }	
+}
+
+
+
+
+
+
+

@@ -1,0 +1,10 @@
+class B
+{
+	field int v;
+	
+	function void F ()
+	{
+		do A.N ();
+	}
+	
+}
